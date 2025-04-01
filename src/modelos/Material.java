@@ -1,10 +1,9 @@
 package modelos;
 
-public class Material {
+public abstract class Material {
 	private static int contadorId = 0;
 	private int id;
 	private String nome;
-	private String descricao;
 	private CondicaoMaterial condicao;
 	private boolean disponivel;
 	
@@ -12,10 +11,9 @@ public class Material {
 		
 	}
 
-	public Material(String nome, String descricao, CondicaoMaterial condicao) {
+	public Material(String nome, CondicaoMaterial condicao) {
 		this.id = contadorId++;
 		this.nome = nome;
-		this.descricao = descricao;
 		this.condicao = condicao;
 	}
 
@@ -25,14 +23,6 @@ public class Material {
 
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
-
-	public String getDescricao() {
-		return descricao;
-	}
-
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
 	}
 
 	public CondicaoMaterial getCondicao() {
@@ -55,10 +45,7 @@ public class Material {
 		return id;
 	}
 	
-	
-
-
-	
+	public abstract String descricao();
 	
 
 }
