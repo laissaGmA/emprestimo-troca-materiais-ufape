@@ -1,8 +1,13 @@
 package test;
 
-import negocio.*;
 import org.junit.Before;
 import org.junit.Test;
+
+import negocio.Apostila;
+import negocio.EquipamentoEletronico;
+import negocio.Livro;
+import negocio.MaterialDeLaboratorio;
+
 import static org.junit.Assert.*;
 
 public class MaterialTest {
