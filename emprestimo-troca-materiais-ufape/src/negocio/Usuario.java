@@ -3,6 +3,14 @@ package negocio;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Representa um usuário cadastrado no sistema de empréstimos.
+ * Contém informações como nome, e-mail, matrícula, senha e ranking de comportamento.
+ * 
+ * @author Laissa Maria Gama Silva
+ */
+
+
 public class Usuario {
     private String nome;
     private String email;

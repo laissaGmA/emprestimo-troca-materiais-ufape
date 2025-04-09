@@ -1,5 +1,13 @@
 package negocio;
 
+/**
+ * Representa um equipamento eletrônico (como fone, mouse, etc.) disponível para empréstimo.
+ * Herda os atributos de Material e adiciona a marca do equipamento.
+ * 
+ * @author Laissa Maria Gama Silva
+ */
+
+
 public class EquipamentoEletronico extends Material {
     private String marca;
     private String modelo;

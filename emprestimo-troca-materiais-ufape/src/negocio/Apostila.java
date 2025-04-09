@@ -1,5 +1,13 @@
 package negocio;
 
+/**
+ * Representa uma apostila de estudos disponível no sistema de empréstimos.
+ * Herda os atributos de Material e inclui a disciplina relacionada.
+ * 
+ * @author Laissa Maria Gama Silva
+ */
+
+
 public class Apostila extends Material {
     private String disciplina;
 

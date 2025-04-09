@@ -1,5 +1,13 @@
 package negocio;
 
+/**
+ * Representa um material de laboratório que pode ser emprestado no sistema.
+ * Herda de Material e contém informações sobre o tipo de material laboratorial.
+ * 
+ * @author Laissa Maria Gama Silva
+ */
+
+
 public class MaterialDeLaboratorio extends Material {
     private String laboratorio;
 

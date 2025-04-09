@@ -1,5 +1,12 @@
 package negocio;
 
+/**
+ * Representa um livro disponível para empréstimo no sistema.
+ * Herda atributos de Material e adiciona autor e categoria.
+ * 
+ * @author Laissa Maria Gama Silva
+ */
+
 
 public class Livro extends Material {
     private String autor;

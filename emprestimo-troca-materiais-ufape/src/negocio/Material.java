@@ -1,5 +1,13 @@
 package negocio;
 
+/**
+ * Classe abstrata que representa um material genérico que pode ser emprestado no sistema,
+ * como livros, apostilas ou equipamentos eletrônicos.
+ * Contém atributos comuns como nome, descrição e disponibilidade.
+ * 
+ * @author Laissa Maria Gama Silva
+ */
+
 public abstract class Material {
     protected String nome;
     protected String descricao;
