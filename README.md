@@ -1,5 +1,5 @@
 
-# 📚 Sistema de Empréstimo e Troca de Materiais - UFAPE
+# 📚 Sistema de Empréstimo de Materiais - UFAPE
 
 Este é um sistema acadêmico para **empréstimo de materiais** como livros, apostilas, equipamentos eletrônicos e materiais de laboratório entre estudantes da **UFAPE**. O sistema é acessado via interface de texto (console) e permite a gestão de usuários, materiais, empréstimos, avaliações e denúncias.
 
