@@ -1,7 +1,5 @@
 package dados;
 
-//Carlos Raiff de Farias Brito
-
 import negocio.Denuncia;
 import negocio.Material;
 import negocio.Usuario;

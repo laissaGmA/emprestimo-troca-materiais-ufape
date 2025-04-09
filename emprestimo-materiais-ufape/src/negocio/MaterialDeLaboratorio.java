@@ -4,7 +4,7 @@ package negocio;
  * Representa um material de laboratório que pode ser emprestado no sistema.
  * Herda de Material e contém informações sobre o tipo de material laboratorial.
  * 
- * Carlos Raiff de Farias Brito
+ * @author Laissa Maria Gama Silva
  */
 
 

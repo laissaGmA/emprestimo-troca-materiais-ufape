@@ -1,7 +1,5 @@
 package dados;
 
-//Carlos Raiff de Farias Brito
-
 import negocio.Material;
 import java.util.ArrayList;
 import java.util.List;
