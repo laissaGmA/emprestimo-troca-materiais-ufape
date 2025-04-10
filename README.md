@@ -52,7 +52,6 @@ emprestimo-materiais-ufape/
 - ✅ **Herança** (`Material` e suas subclasses)
 - ✅ **Polimorfismo**
 - ✅ **Interface via console**
-- ✅ **Exceções (biblioteca e personalizadas)**
 - ✅ **Padrão de projeto Fachada**
 - ✅ **Organização em camadas** (`negocio`, `dados`, `fachada`, `iu`)
 
